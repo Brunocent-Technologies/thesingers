@@ -43,7 +43,12 @@ document.getElementById("mobileMenuBtn").addEventListener("click", function () {
 
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
+  loop: true,
   effect: "fade",
+  autoplay: {
+    delay: 2500, 
+    disableOnInteraction:true,
+  },
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
