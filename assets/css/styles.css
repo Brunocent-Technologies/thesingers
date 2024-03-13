@@ -53,8 +53,7 @@ nav ul li, nav ul div{
   transition: 0.3s ease-in;
 }
 nav ul li:hover, nav ul div:hover:not(.sign-up){
-  background:#2b569aa5;
-  color: white;
+  text-decoration: underline;
 }
 
 .sign-up{
