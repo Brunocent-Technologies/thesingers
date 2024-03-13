@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Smooch+Sans:wght@100..900&display=swap");
 
-
-:root{
+:root {
   --ourPrimary: #2b559a;
   --Logotext: #0d2061;
 }
-
+.dark {
+  background-color: rgba(0, 0, 0, 0.486);
+}
+.light {
+  background-color: white;
+}
 
 /* reset */
 * {
@@ -44,7 +48,8 @@ img {
 
 /* My Header CSS  */
 
-nav ul li, nav ul div{
+nav ul li,
+nav ul div {
   padding: 10px;
   color: var(--ourPrimary);
   border-radius: 20px;
@@ -52,19 +57,20 @@ nav ul li, nav ul div{
   text-align: center;
   transition: 0.3s ease-in;
 }
-nav ul li:hover, nav ul div:hover:not(.sign-up){
+nav ul li:hover,
+nav ul div:hover:not(.sign-up) {
   text-decoration: underline;
 }
 
-.sign-up{
+.sign-up {
   background: var(--ourPrimary);
-  color:white;
+  color: white;
 }
-.logo-text{
+.logo-text {
   font-size: 45px;
   color: var(--Logotext);
 }
-.fill-current{
+.fill-current {
   color: var(--ourPrimary);
 }
 .header {
@@ -91,12 +97,12 @@ nav ul li:hover, nav ul div:hover:not(.sign-up){
   width: 100%;
   object-fit: cover;
 }
-.slide-text{
+.slide-text {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;  
+  right: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,13 +114,7 @@ nav ul li:hover, nav ul div:hover:not(.sign-up){
   flex-direction: column;
 }
 
-
-
-
-
-
 /* hero section ends here  */
-
 
 /* Biography section starts here */
 .slider-container {
@@ -155,7 +155,7 @@ nav ul li:hover, nav ul div:hover:not(.sign-up){
   object-fit: cover;
 }
 /* Biography Section Ends Here  */
- 
+
 /* ===== Responsivenss starts here ================= */
 /* Mobile menu styling */
 #mobileMenu {
@@ -188,5 +188,5 @@ nav ul li:hover, nav ul div:hover:not(.sign-up){
     margin: 0 auto;
   }
 }
- 
+
 /* ===== Responsivenss starts here ================= */
