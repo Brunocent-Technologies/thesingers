@@ -44,10 +44,10 @@ document.getElementById("mobileMenuBtn").addEventListener("click", function () {
 
 $(document).ready(function() {
     $('.flexslider').flexslider({
-      animation: "slide",
-      slideshow: true,
+      animation: "slide", 
+      slideshow: true, 
       slideshowSpeed: 5000, 
-      controlNav: true,
+      controlNav: true, 
       directionNav: true,
     });
   });
