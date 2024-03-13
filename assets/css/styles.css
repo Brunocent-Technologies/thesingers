@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Smooch+Sans:wght@100..900&display=swap");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Smooch Sans", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Smooch Sans", sans-serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul li a:hover {
+  color: #ff6b6b;
+  border-bottom: 4px solid #210aef;
+}
+/* custom */
+.header {
+  z-index: 9999;
+}
+.typewriter h1 {
+  overflow: hidden;
+  border-right: 0.15em solid rgb(9, 41, 249);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+.typewriter h2 {
+  font-size: xx-large;
+  color: green;
+  font-weight: 900;
+  overflow: hidden;
+  border-right: 0.15em solid #097886;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing1 3.5s steps(1, end), blink-caret1 0.75s step-end infinite;
+}
+/* Light Theme */
+.light {
+  /* Define your light theme styles here */
+  background-color: #ffffff;
+ 
+}
+
+/* Dark Theme */
+.dark {
+  /* Define your dark theme styles here */
+  background-color: #121212;
+  
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes typing1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #097886;
+  }
+}
+@keyframes blink-caret1 {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: transparent;
+  }
+}
+/* Mobile menu styling */
+#mobileMenu {
+  display: none;
+  background-color: #097886;
+}
+
+#mobileMenu a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 767px) {
+  ul#navList {
+    display: none;
+  }
+
+  ul#mobileMenu {
+    display: block;
+  }
+  #lg-menu {
+    display: none;
+  }
+  /* Centering the mobile menu button */
+  #mobileMenuBtn {
+    display: block;
+    margin: 0 auto;
+  }
+}
