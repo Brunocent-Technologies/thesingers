@@ -68,49 +68,13 @@ nav ul li:hover, nav ul div:hover:not(.sign-up){
 .fill-current{
   color: var(--ourPrimary);
 }
-
-
-/* End of CSS for the header  */
-
-
-/* custom */
 .header {
   z-index: 9999;
   background: transparent;
   color: var(--ourPrimary);
 }
-.typewriter h1 {
-  overflow: hidden;
-  border-right: 0.15em solid rgb(9, 41, 249);
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: 0.15em;
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-}
-.typewriter h2 {
-  font-size: xx-large;
-  color: green;
-  font-weight: 900;
-  overflow: hidden;
-  border-right: 0.15em solid #097886;
-  white-space: nowrap;
-  margin: 0 auto;
-  letter-spacing: 0.15em;
-  animation: typing1 3.5s steps(1, end), blink-caret1 0.75s step-end infinite;
-}
-/* Light Theme */
-.light {
-  /* Define your light theme styles here */
-  background-color: #ffffff;
- 
-}
 
-/* Dark Theme */
-.dark {
-  /* Define your dark theme styles here */
-  background-color: #121212;
-  
-}
+/* End of CSS for the header  */
 /* hero section  sliders */
 
 
@@ -124,46 +88,8 @@ nav ul li:hover, nav ul div:hover:not(.sign-up){
 
 
 
-
-
-
-/* The typing effect */
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-@keyframes typing1 {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: #097886;
-  }
-}
-@keyframes blink-caret1 {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: transparent;
-  }
-}
+ 
+/* ===== Responsivenss starts here ================= */
 /* Mobile menu styling */
 #mobileMenu {
   display: none;
@@ -195,3 +121,5 @@ nav ul li:hover, nav ul div:hover:not(.sign-up){
     margin: 0 auto;
   }
 }
+ 
+/* ===== Responsivenss starts here ================= */
