@@ -227,7 +227,11 @@ nav ul div:hover:not(.sign-up) {
               -1px 0.6px 2px rgba(0, 0, 0, 0.094);
 }
 
+#biography{
+  background-image: url("/assets/images/fumes.jpg");
+  background-attachment: fixed;
 
+}
 /* Biography Section Ends Here  */
 
 /* ===== Responsivenss starts here ================= */
