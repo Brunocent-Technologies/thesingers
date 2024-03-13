@@ -56,3 +56,51 @@ var swiper = new Swiper(".mySwiper", {
 
 //
 
+var swiper = new Swiper(".slider-content", {
+  slidesPerView: 4,
+  spaceBetween: 25,
+  loop: true,
+  fade: true,
+  autoplay: {
+    delay: 2500, 
+    disableOnInteraction:true,
+  },
+  centerSlides: true,
+  grabCursor: true, 
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints:{
+    0:{
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    640:{
+      slidesPerView: 2,
+      spaceBetween: 15,
+    },
+    768:{
+      slidesPerView: 3,
+      spaceBetween: 18,
+    },
+    1024:{
+      spaceBetween: 20,
+    },
+    1200:{
+      slidesPerView: 4,
+      spaceBetween: 25,
+    }
+  } 
+});
+
+
+window.addEventListener("scroll", function () {
+  var header = document.querySelector("header");
+  header.style.backgroundColor = window.scrollY > 0 ? "#fff" : "transparent";
+});
