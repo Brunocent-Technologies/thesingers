@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Smooch+Sans:wght@100..900&display=swap");
 
+
+:root{
+  --ourPrimary: #2b559a;
+  --Logotext: #0d2061;
+}
+
+
 /* reset */
 * {
   margin: 0;
@@ -34,14 +41,24 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-ul li a:hover {
-  color: #ff6b6b;
-  border-bottom: 4px solid #210aef;
+nav ul li, nav ul div{
+  padding: 10px;
+  color: var(--ourPrimary);
+  border-radius: 20px;
+  min-width: 70px;
+  text-align: center;
+  transition: 0.3s ease-in;
 }
+nav ul li:hover, nav ul div:hover:not(.sign-up){
+  background:#2b569aa5;
+  color: white;
+}
+
 /* custom */
 .header {
   z-index: 9999;
+  background: transparent;
+  color: var(--ourPrimary);
 }
 .typewriter h1 {
   overflow: hidden;
@@ -75,6 +92,21 @@ ul li a:hover {
   background-color: #121212;
   
 }
+
+.sign-up{
+  background: var(--ourPrimary);
+  color:white;
+}
+.logo-text{
+  font-size: 45px;
+  color: var(--Logotext);
+}
+
+
+
+
+
+
 
 /* The typing effect */
 @keyframes typing {
