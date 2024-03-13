@@ -122,7 +122,9 @@ nav ul li:hover, nav ul div:hover:not(.sign-up){
   font-size: 45px;
   color: var(--Logotext);
 }
-
+.fill-current{
+  color: var(--ourPrimary);
+}
 
 
 
