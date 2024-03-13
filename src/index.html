@@ -12,6 +12,10 @@
       content="This is a website for singers, musicians,
     and artists to showcase their talent and get discovered by the world."
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <link
       rel="stylesheet"
@@ -25,7 +29,7 @@
     <title>About Us</title>
   </head>
   <body class="">
-    <header class="w-full sticky top-0 z-50 shadow-lg">
+    <header class="w-full sticky top-0 z-50">
       <nav class="w-full flex justify-between items-center">
         <div class="flex items-center justify-center">
           <a href="home">
@@ -152,7 +156,41 @@
     </header>
 
 <!-- start of hero section -->
-  
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="SliderHero"/>
+          <div class="slide-text">
+            <h1 class="text-4xl font-bold">Welcome to Vocalists</h1>
+            <p class="text-lg">We are a community of singers, musicians, and artists</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="SliderHero"/>
+          <div class="slide-text">
+            <h1 class="text-4xl font-bold">Welcome to Vocalists</h1>
+            <p class="text-lg">We are a community of singers, musicians, and artists</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="SliderHero"/>
+          <div class="slide-text">
+            <h1 class="text-4xl font-bold">Welcome to Vocalists</h1>
+            <p class="text-lg">We are a community of singers, musicians, and artists</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="SliderHero"/>
+          <div class="slide-text">
+            <h1 class="text-4xl font-bold">Welcome to Vocalists</h1>
+            <p class="text-lg">We are a community of singers, musicians, and artists</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
 
   <!-- end of hero section  -->
     
@@ -160,5 +198,6 @@
     
 
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="/assets/js/main.js"></script>
 </html>
