@@ -154,6 +154,12 @@ nav ul div:hover:not(.sign-up) {
   height: 100% !important;
   object-fit: cover;
 }
+#biography{
+  height: 25%;
+  background: url("/assets/images/fumes.jpg") no-repeat center center/cover;
+ 
+
+}
 /* Biography Section Ends Here  */
 
 /* ===== Responsivenss starts here ================= */
