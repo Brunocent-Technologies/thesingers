@@ -39,3 +39,16 @@ document.getElementById("mobileMenuBtn").addEventListener("click", function () {
   mobileMenu.style.display =
     mobileMenu.style.display === "block" ? "none" : "block";
 });
+// hero-slider 
+
+
+$(document).ready(function() {
+    $('.flexslider').flexslider({
+      animation: "slide",
+      slideshow: true,
+      slideshowSpeed: 5000, 
+      controlNav: true,
+      directionNav: true,
+    });
+  });
+  

@@ -75,6 +75,27 @@ ul li a:hover {
   background-color: #121212;
   
 }
+/* Set the container width and height */
+.flexslider {
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+  margin: 0 auto;
+}
+
+/* Style for the slides */
+.slides li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+  /* other styles for the slides */
+}
+
+/* Style for the active slide */
+.slides li.flex-active-slide {
+  display: block;
+}
+
+/* Other necessary styles for navigation, etc. */
+
 
 /* The typing effect */
 @keyframes typing {
