@@ -41,6 +41,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* My Header CSS  */
+
 nav ul li, nav ul div{
   padding: 10px;
   color: var(--ourPrimary);
@@ -53,6 +56,22 @@ nav ul li:hover, nav ul div:hover:not(.sign-up){
   background:#2b569aa5;
   color: white;
 }
+
+.sign-up{
+  background: var(--ourPrimary);
+  color:white;
+}
+.logo-text{
+  font-size: 45px;
+  color: var(--Logotext);
+}
+.fill-current{
+  color: var(--ourPrimary);
+}
+
+
+/* End of CSS for the header  */
+
 
 /* custom */
 .header {
@@ -112,21 +131,6 @@ nav ul li:hover, nav ul div:hover:not(.sign-up){
 }
 
 /* Other necessary styles for navigation, etc. */
-
-
-.sign-up{
-  background: var(--ourPrimary);
-  color:white;
-}
-.logo-text{
-  font-size: 45px;
-  color: var(--Logotext);
-}
-.fill-current{
-  color: var(--ourPrimary);
-}
-
-
 
 
 
