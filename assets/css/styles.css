@@ -92,24 +92,18 @@ nav ul li:hover, nav ul div:hover:not(.sign-up){
   background-color: #121212;
   
 }
-/* slider styles starts  */
-
-/* Style for the slides */
-.slides li {
-  display: none; /* Hide slides by default */
-}
-
-/* Style for the active slide */
-.slides li.flex-active-slide {
-  display: block; /* Show the active slide */
-}
+/* hero section  sliders */
 
 
 
-/* slider styles ends here  */
 
 
-/* Other necessary styles for navigation, etc. */
+
+
+/* hero section ends here  */
+
+
+
 
 
 .sign-up{
