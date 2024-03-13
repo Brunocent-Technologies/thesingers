@@ -12,6 +12,10 @@
       content="This is a website for singers, musicians,
     and artists to showcase their talent and get discovered by the world."
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <link
       rel="stylesheet"
@@ -25,7 +29,7 @@
     <title>About Us</title>
   </head>
   <body class="">
-    <header class="w-full sticky top-0 z-50 shadow-lg">
+    <header class="w-full sticky top-0 z-50">
       <nav class="w-full flex justify-between items-center">
         <div class="flex items-center justify-center">
           <a href="home">
@@ -151,7 +155,44 @@
       </nav>
     </header>
 
-    <!-- start of hero section -->
+
+<!-- start of hero section -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="SliderHero"/>
+          <div class="slide-text">
+            <h1 class="text-4xl font-bold">Welcome to Vocalists</h1>
+            <p class="text-lg">We are a community of singers, musicians, and artists</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="SliderHero"/>
+          <div class="slide-text">
+            <h1 class="text-4xl font-bold">Welcome to Vocalists</h1>
+            <p class="text-lg">We are a community of singers, musicians, and artists</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="SliderHero"/>
+          <div class="slide-text">
+            <h1 class="text-4xl font-bold">Welcome to Vocalists</h1>
+            <p class="text-lg">We are a community of singers, musicians, and artists</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt="SliderHero"/>
+          <div class="slide-text">
+            <h1 class="text-4xl font-bold">Welcome to Vocalists</h1>
+            <p class="text-lg">We are a community of singers, musicians, and artists</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+>>>>>>> f192b382366c65431c0f7ac131270ec7d0d1a419
 
     <!-- end of hero section  -->
 
@@ -196,11 +237,115 @@
 
     <!-- concerts and events -->
 
-    
+    <section class="s-countries">
+        <div class="container">
+          <h1 class="text-center common-heading">Scholarship Countries</h1>
+        </div>
+        <div class="swiper slider-container">
+          <div class="slider-content">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" >
+                <div class="card">
+                  <img loading="lazy" src="images/Turkey.jpg" class="card-img" alt="USA">
+                  <div class="card-img-overlay">
+                    <h2 class="card-title">Turkey</h2>
+                    <p class="card-text">Turkey serves as a unique bridge between East and West, providing quality education that reflects its rich historical and cultural heritage.</p>
+                    <div class="d-flex justify-content-center"><a href="https://forms.gle/BBBnQd95zHqM36US6" class="mybtn">Learn More</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" >
+                <div class="card">
+                  <img loading="lazy" src="images/canada.jpg" class="card-img" alt="Canada">
+                  <div class="card-img-overlay">
+                    <h2 class="card-title">Canada</h2>
+                    <p class="card-text">Canada is renowned for its world-class education system, offering a diverse range of programs and fostering a multicultural learning environment.</p>
+                    <div class="d-flex justify-content-center"><a href="https://forms.gle/BBBnQd95zHqM36US6" class="mybtn">Learn More</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" >
+                <div class="card">
+                  <img loading="lazy" src="images/uk.jpg" class="card-img" alt="UK">
+                  <div class="card-img-overlay">
+                    <h2>UK</h2>
+                    <p>The UK combines rich academic tradition with modern approaches, offering a wide array of programs and research opportunities at historic universities</p>
+                    <div class="d-flex justify-content-center"><a href="https://forms.gle/BBBnQd95zHqM36US6" class="mybtn">Learn More</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" >
+                <div class="card">
+                  <img loading="lazy" src="images/italy.jpg" class="card-img" alt="USA">
+                  <div class="card-img-overlay">
+                    <h2 class="card-title">Italy</h2>
+                    <p class="card-text">Italy is synonymous with art and culture, offering a unique blend of historical significance and modern education, especially in arts and design.</p>
+                    <div class="d-flex justify-content-center"><a href="https://forms.gle/BBBnQd95zHqM36US6" class="mybtn">Learn More</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" >
+                <div class="card">
+                  <img loading="lazy" src="images/india.jpg" class="card-img" alt="Canada">
+                  <div class="card-img-overlay">
+                    <h2 class="card-title">India</h2>
+                    <p class="card-text">India boasts a rich cultural tapestry and offers diverse educational experiences, with a focus on technology, arts, and traditional disciplines.</p>
+                    <div class="d-flex justify-content-center"><a href="https://forms.gle/BBBnQd95zHqM36US6" class="mybtn">Learn More</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" >
+                <div class="card">
+                  <img loading="lazy" src="images/China2.jpg" class="card-img" alt="UK">
+                  <div class="card-img-overlay">
+                    <h2>China</h2>
+                    <p>China, an economic powerhouse, provides a dynamic education landscape with a focus on technology, business, and traditional disciplines.</p>
+                    <div class="d-flex justify-content-center"><a href="https://forms.gle/BBBnQd95zHqM36US6" class="mybtn">Learn More</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" >
+                <div class="card">
+                  <img loading="lazy" src="images/Poland.jpg" class="card-img" alt="USA">
+                  <div class="card-img-overlay">
+                    <h2 class="card-title">Poland</h2>
+                    <p class="card-text">Poland is recognized for its academic innovation, offering a vibrant and affordable education environment, particularly in science and technology.</p>
+                    <div class="d-flex justify-content-center"><a href="https://forms.gle/BBBnQd95zHqM36US6" class="mybtn">Learn More</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" >
+                <div class="card">
+                  <img loading="lazy" src="images/Germany.jpg" class="card-img" alt="Canada">
+                  <div class="card-img-overlay">
+                    <h2 class="card-title">Germany</h2>
+                    <p class="card-text">Germany, known for engineering prowess, offers cutting-edge education and is a global leader in innovation and research.</p>
+                    <div class="d-flex justify-content-center"><a href="https://forms.gle/BBBnQd95zHqM36US6" class="mybtn">Learn More</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img loading="lazy" src="images/Romania.jpg" class="card-img" alt="UK">
+                  <div class="card-img-overlay">
+                    <h2>Romania</h2>
+                    <p>Romania is an emerging educational hub, providing affordable yet high-quality education with a focus on science, technology, and arts.</p>
+                    <div class="d-flex justify-content-center"><a href="https://forms.gle/BBBnQd95zHqM36US6" class="mybtn">Learn More</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
     <!-- concerts and events end  -->
 
    
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="/assets/js/main.js"></script>
 </html>
