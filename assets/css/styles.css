@@ -555,6 +555,28 @@ nav ul div:hover:not(.sign-up) {
     display: block;
     margin: 0 auto;
   }
+  .slider-container{
+    padding: 0 20px;
+  
+  }
 }
+@media screen and (max-width: 1024px){
+  ul#navList {
+    display: none;
+  }
 
+  ul#mobileMenu {
+    display: block;
+  }
+  #lg-menu {
+    display: none;
+  }
+  /* Centering the mobile menu button */
+  #mobileMenuBtn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  
+}
 /* ===== Responsivenss starts here ================= */
