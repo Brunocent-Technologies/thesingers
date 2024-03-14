@@ -121,9 +121,9 @@ nav ul div:hover:not(.sign-up) {
 
 /* End of CSS for the header  */
 /* hero section  sliders */
-.swiper {
+.mySwiper {
   width: 100%;
-  height: 100%;
+  height: 550px;
 }
 
 .swiper-slide {
@@ -135,6 +135,7 @@ nav ul div:hover:not(.sign-up) {
 .swiper-slide img {
   display: block;
   width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .slide-text {
@@ -577,6 +578,6 @@ nav ul div:hover:not(.sign-up) {
     margin: 0 auto;
   }
 
-  
+
 }
 /* ===== Responsivenss starts here ================= */

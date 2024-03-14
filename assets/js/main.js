@@ -54,7 +54,7 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
   pagination: {
-    el: ".swiper-pagination1",
+    el: ".swiper-pagination",
     clickable: true,
   },
 });
