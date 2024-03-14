@@ -109,3 +109,17 @@ window.addEventListener("scroll", function () {
   var header = document.querySelector("header");
   header.style.backgroundColor = window.scrollY > 0 ? "#fff" : "transparent";
 });
+
+// JavaScript for Login Page 
+
+const container = document.getElementById('container1');
+const registerBtn = document.getElementById('register1');
+const loginBtn = document.getElementById('login1');
+
+registerBtn.addEventListener('click', () => {
+    container.classList.add("active");
+});
+
+loginBtn.addEventListener('click', () => {
+    container.classList.remove("active");
+});
