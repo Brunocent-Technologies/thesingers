@@ -123,3 +123,14 @@ registerBtn.addEventListener('click', () => {
 loginBtn.addEventListener('click', () => {
     container.classList.remove("active");
 });
+
+var swiper = new Swiper(".myTestimonial", {
+  slidesPerView: 2,
+  spaceBetween: 30,
+  fade: true,
+  centeredSlides: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});

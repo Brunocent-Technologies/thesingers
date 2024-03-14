@@ -156,7 +156,7 @@ nav ul div:hover:not(.sign-up) {
 }
 
 .swiper-pagination-bullet{
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(115, 72, 72, 0.687);
 }
 .swiper-pagination-bullet-active{
   background: var(--ourPrimary);
@@ -219,7 +219,7 @@ nav ul div:hover:not(.sign-up) {
  {
   color: var(--ourPrimary);
   transition: 0.2s ease;
-}
+}f
 
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
@@ -238,11 +238,11 @@ nav ul div:hover:not(.sign-up) {
   z-index: 1;
 }
 .swiper-pagination2-bullet {
-  background-color: var(--ourPrimary);
+  background-color: green !important;
 }
 
 .swiper-pagination2-bullet-active {
-  background-color: var(--Logotext);
+  background: blue !important;
 }
 .mybtn-prev, .mybtn-next{
   background: none;
