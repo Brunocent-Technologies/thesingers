@@ -261,12 +261,18 @@ nav ul div:hover:not(.sign-up) {
 }
 
 #biography{
-  background-image: url("/assets/images/fumes.jpg");
+  background-color: rgba(128, 128, 128, 0.231);
   background-attachment: fixed;
 
 }
 /* Biography Section Ends Here  */
-
+#new-song{
+  background-color: rgba(9, 9, 9, 0.393);
+}
+#tumbnail{
+  background-image: url("/assets/images/fumes.jpg");
+  background-attachment: fixed; 
+}
 
 
 
